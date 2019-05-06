@@ -14,6 +14,8 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
+    implementation("com.google.cloud:google-cloud-language:1.70.0")
+    implementation("com.squareup.okio:okio:2.2.2")
 }
 
 tasks.withType<KotlinCompile> {
